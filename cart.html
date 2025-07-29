@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart | DripCart</title>
+  <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="bg-gray-100 text-gray-900">
+  <!-- Navbar -->
+  <nav class="flex justify-between items-center p-4 bg-white shadow-md">
+    <h1 class="text-2xl font-bold text-purple-600">DripCart</h1>
+    <a href="index.html">🏠</a>
+  </nav>
+  <!-- Cart Content -->
+  <main class="p-6 max-w-4xl mx-auto">
+    <h2 class="text-2xl font-bold mb-6">Your Cart 🛒</h2>
+    <div id="cart-items" class="space-y-6">
+      <!-- Cart items from JS -->
+    </div>
+    <!-- Total Summary -->
+    <div class="mt-10 p-4 bg-white rounded shadow flex justify-between items-center">
+      <span class="text-xl font-semibold">Total:</span>
+      <span id="cart-total" class="text-2xl font-bold text-purple-700">Ksh 0</span>
+    </div>
+    <!-- Actions -->
+    <div class="mt-6 flex justify-between">
+      <button id="clear-cart" class="bg-red-500 text-white px-5 py-2 rounded hover:bg-red-600">Clear Cart</button>
+      <button class="bg-purple-600 text-white px-5 py-2 rounded hover:bg-purple-700">Checkout</button>
+    </div>
+  </main>
+</body>
+</html>

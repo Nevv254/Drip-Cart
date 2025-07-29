@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login | DripCart</title>
+  <!-- Tailwind CSS -->
+ <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-tr from-purple-100 to-white min-h-screen flex items-center justify-center px-4">
+  <!-- Login Card -->
+  <div class="w-full max-w-md bg-white rounded-xl shadow-xl p-8">
+    <h2 class="text-3xl font-bold text-center text-purple-700 mb-6">Welcome Back 👋</h2>
+    <!-- Login Form -->
+    <form id="login-form" class="space-y-4">
+      <input type="email" placeholder="Email" class="w-full p-3 border rounded-md" required />
+      <input type="password" placeholder="Password" class="w-full p-3 border rounded-md" required />
+      <button type="submit" class="w-full bg-purple-600 hover:bg-purple-700 text-white p-3 rounded-md">Login</button>
+    </form>
+    <!-- Redirect to Signup -->
+    <p class="text-center text-sm mt-4">
+      New here?
+      <a href="signup.html" class="text-purple-600 font-medium hover:underline">Create an account</a>
+    </p>
+    <!-- Google Login Button -->
+    <button id="google-login" class="mt-4 w-full border p-3 rounded-md hover:bg-gray-100">Continue with Google</button>
+  </div>
+</body>
+</html>
