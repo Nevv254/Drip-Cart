@@ -1,0 +1,56 @@
+[
+  {
+    "id": "1",
+    "name": "Wireless Earbuds",
+    "price": 3500,
+    "category": "Electronics",
+    "image": "images/earbuds.jpg",
+    "description": "High-quality wireless earbuds with noise cancellation.",
+    "inStock": true,
+    "flashSale": true
+  },
+  {
+    "id": "2",
+    "name": "T-Shirt",
+    "price": 1200,
+    "category": "Clothing",
+    "image": "images/tshirt.jpg",
+    "description": "100% cotton T-shirt in multiple colors.",
+    "inStock": true,
+    "flashSale": false
+  },
+  {
+    "id": "3",
+    "name": "Hoodie",
+    "price": 2500,
+    "category": "Clothing",
+    "image": "images/hoodie.jpg",
+    "description": "100% cotton Hoodie in multiple colors.",
+    "inStock": true,
+    "flashSale": true
+  },
+  {
+    "id": "4",
+    "name": "Watch",
+    "price": 4000,
+    "category": "Electronics",
+    "image": "images/watch.jpg",
+    "description": "State of the art silver watches.",
+    "inStock": true,
+    "flashSale": false
+  },
+  {
+    "id": "5",
+    "name": "Trouser",
+    "price": 2500,
+    "category": "Clothing",
+    "image": "images/trouser.jpg",
+    "description": "Designer label jeans in all colors.",
+    "inStock": true,
+    "flashSale": true
+  }
+
+
+    
+
+]
